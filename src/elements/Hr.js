@@ -1,14 +1,12 @@
 import glamorous from 'glamorous'
-import { space, width, color, borders } from 'styled-system'
+import {space, width, color, borders} from 'styled-system'
 
 const Hr = glamorous.hr(space, width, color, borders, {
   boxSizing: 'border-box',
   height: 0,
-  overflow: 'visible' 
+  overflow: 'visible',
 })
 
-Hr.defaultProps = {
-
-}
+Hr.defaultProps = {}
 
 export default Hr

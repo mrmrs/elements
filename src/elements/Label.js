@@ -1,12 +1,25 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, fontWeight, lineHeight, textAlign, color } from 'styled-system'
+import {
+  space,
+  width,
+  fontSize,
+  fontWeight,
+  lineHeight,
+  textAlign,
+  color,
+} from 'styled-system'
 
-const Label = glamorous.label(space, width, fontSize, fontWeight, lineHeight, textAlign, color, {
+const Label = glamorous.label(
+  space,
+  width,
+  fontSize,
+  fontWeight,
+  lineHeight,
+  textAlign,
+  color,
+  {},
+)
 
-})
-
-Label.defaultProps = {
-
-}
+Label.defaultProps = {}
 
 export default Label

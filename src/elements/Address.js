@@ -1,12 +1,8 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import {space, width, fontSize, color} from 'styled-system'
 
-const Address = glamorous.address(space, width, fontSize, color, {
+const Address = glamorous.address(space, width, fontSize, color, {})
 
-})
-
-Address.defaultProps = {
-
-}
+Address.defaultProps = {}
 
 export default Address

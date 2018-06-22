@@ -1,12 +1,8 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import {space, width, fontSize, color} from 'styled-system'
 
-const Data = glamorous.data(space, width, fontSize, color, {
+const Data = glamorous.data(space, width, fontSize, color, {})
 
-})
-
-Data.defaultProps = {
-
-}
+Data.defaultProps = {}
 
 export default Data
