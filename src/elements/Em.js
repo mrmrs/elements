@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, color} from 'styled-system'
+import {space, width, display, fontSize, color} from 'styled-system'
 
-const Em = glamorous.em(space, width, fontSize, color, {})
+const Em = glamorous.em(space, width, display, fontSize, color, {})
 
 Em.defaultProps = {}
 

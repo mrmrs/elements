@@ -1,7 +1,24 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, fontWeight, color} from 'styled-system'
+import {
+  space,
+  width,
+  display,
+  fontSize,
+  fontWeight,
+  lineHeight,
+  color,
+} from 'styled-system'
 
-const Dt = glamorous.dt(space, width, fontSize, fontWeight, color, {})
+const Dt = glamorous.dt(
+  space,
+  width,
+  display,
+  fontSize,
+  fontWeight,
+  lineHeight,
+  color,
+  {},
+)
 
 Dt.defaultProps = {}
 

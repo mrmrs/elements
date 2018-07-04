@@ -2,12 +2,16 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  display,
+  alignItems, 
+  justifyContent,
   fontSize,
   fontWeight,
   textAlign,
   color,
-  display,
   borders,
+  borderColor, 
+  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -19,7 +23,11 @@ const A = glamorous.a(
   textAlign,
   color,
   display,
+  alignItems, 
+  justifyContent,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
   {},
 )
