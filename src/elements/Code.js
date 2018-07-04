@@ -6,7 +6,7 @@ import {
   fontSize,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   borderRadius,
 } from 'styled-system'

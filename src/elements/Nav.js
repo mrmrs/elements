@@ -5,6 +5,8 @@ import {
   fontSize,
   color,
   borders,
+  borderWidth,
+  borderColor,
   borderRadius,
 } from 'styled-system'
 
@@ -14,6 +16,8 @@ const Nav = glamorous.nav(
   fontSize,
   color,
   borders,
+  borderWidth,
+  borderColor,
   borderRadius,
   {
     boxSizing: 'border-box',

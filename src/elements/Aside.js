@@ -8,7 +8,7 @@ import {
   lineHeight,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   borderRadius,
 } from 'styled-system'
@@ -22,7 +22,7 @@ const Aside = glamorous.aside(
   lineHeight,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   borderRadius,
   {

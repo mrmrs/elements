@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, fontWeight, color} from 'styled-system'
+import {space, width, color, fontSize, fontWeight} from 'styled-system'
 
-const U = glamorous.u(space, width, fontSize, fontWeight, color, {})
+const U = glamorous.u(space, width, color, fontSize, fontWeight, {})
 
 U.defaultProps = {}
 

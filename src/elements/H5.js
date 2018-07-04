@@ -3,8 +3,8 @@ import {
   space,
   width,
   display,
-  alignItems, 
-  justifyContent, 
+  alignItems,
+  justifyContent,
   fontSize,
   fontWeight,
   lineHeight,
@@ -18,8 +18,8 @@ const H5 = glamorous.h5(
   space,
   width,
   display,
-  alignItems, 
-  justifyContent, 
+  alignItems,
+  justifyContent,
   fontSize,
   fontWeight,
   lineHeight,
@@ -29,7 +29,7 @@ const H5 = glamorous.h5(
   borderWidth,
   {
     boxSizing: 'border-box',
-  }
+  },
 )
 
 H5.defaultProps = {}

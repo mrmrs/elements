@@ -8,8 +8,8 @@ import {
   lineHeight,
   color,
   borders,
-  borderColor, 
-  borderWidth
+  borderColor,
+  borderWidth,
 } from 'styled-system'
 
 const Dd = glamorous.dd(
@@ -21,7 +21,7 @@ const Dd = glamorous.dd(
   lineHeight,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   {},
 )

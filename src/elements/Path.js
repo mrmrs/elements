@@ -6,7 +6,7 @@ const Path = glamorous.Path(color, {
 })
 
 Path.defaultProps = {
-  fill: 'currentColor'
+  fill: 'currentColor',
 }
 
 export default Path

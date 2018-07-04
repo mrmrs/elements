@@ -8,7 +8,7 @@ import {
   lineHeight,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   borderRadius,
 } from 'styled-system'
@@ -22,7 +22,7 @@ const Article = glamorous.article(
   lineHeight,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   borderRadius,
   {

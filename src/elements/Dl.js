@@ -2,12 +2,12 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
-  display, 
+  display,
   fontSize,
   textAlign,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   borderRadius,
 } from 'styled-system'
@@ -19,7 +19,7 @@ const Dl = glamorous.dl(
   textAlign,
   color,
   borders,
-  borderColor, 
+  borderColor,
   borderWidth,
   borderRadius,
   {},

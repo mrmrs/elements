@@ -1,9 +1,26 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, color, borders} from 'styled-system'
+import {
+  space,
+  width,
+  fontSize,
+  color,
+  borders,
+  borderColor,
+  borderWidth,
+} from 'styled-system'
 
-const Li = glamorous.li(space, width, fontSize, color, borders, {
-  boxSizing: 'border-box',
-})
+const Li = glamorous.li(
+  space,
+  width,
+  fontSize,
+  color,
+  borders,
+  borderColor,
+  borderwidth,
+  {
+    boxSizing: 'border-box',
+  },
+)
 
 Li.defaultProps = {
   pl: 0,

@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, color} from 'styled-system'
+import {space, fontSize, color} from 'styled-system'
 
-const Tr = glamorous.tr(space, width, fontSize, color, {})
+const Tr = glamorous.tr(space, fontSize, color, {})
 
 Tr.defaultProps = {}
 

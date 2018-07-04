@@ -5,12 +5,24 @@ import {
   fontSize,
   color,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
 } from 'styled-system'
 
-const Ol = glamorous.ol(space, width, fontSize, color, borders, borderRadius, {
-  boxSizing: 'border-box',
-})
+const Ol = glamorous.ol(
+  space,
+  width,
+  fontSize,
+  color,
+  borders,
+  borderColor,
+  borderWidth,
+  borderRadius,
+  {
+    boxSizing: 'border-box',
+  },
+)
 
 Ol.defaultProps = {}
 

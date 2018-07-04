@@ -2,8 +2,11 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  display,
   fontSize,
   borders,
+  borderColor, 
+  borderWidth,
   borderRadius,
   color,
 } from 'styled-system'
@@ -11,9 +14,12 @@ import {
 const Input = glamorous.input(
   space,
   width,
+  display,
   fontSize,
   color,
   borders,
+  borderColor, 
+  borderWidth,
   borderRadius,
   {},
 )

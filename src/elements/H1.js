@@ -3,23 +3,23 @@ import {
   space,
   width,
   display,
-  alignItems, 
-  justifyContent, 
+  alignItems,
+  justifyContent,
   fontSize,
   fontWeight,
   lineHeight,
   color,
   borders,
   borderColor,
-  borderWidth
+  borderWidth,
 } from 'styled-system'
 
 const H1 = glamorous.h1(
   space,
   width,
   display,
-  alignItems, 
-  justifyContent, 
+  alignItems,
+  justifyContent,
   fontSize,
   fontWeight,
   lineHeight,

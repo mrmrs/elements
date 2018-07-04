@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  display,
   fontSize,
   color,
   borders,
@@ -11,6 +12,7 @@ import {
 const Main = glamorous.div(
   space,
   width,
+  display,
   fontSize,
   color,
   borders,
