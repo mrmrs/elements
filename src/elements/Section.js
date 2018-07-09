@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   color,
@@ -12,7 +13,8 @@ import {
 const Section = glamorous.div(
   space,
   width,
-  display, 
+  maxWidth,
+  display,
   fontSize,
   color,
   borders,

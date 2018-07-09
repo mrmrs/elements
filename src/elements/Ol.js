@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   fontSize,
   color,
   borders,
@@ -12,7 +13,7 @@ import {
 
 const Ol = glamorous.ol(
   space,
-  width,
+  maxWidth,
   fontSize,
   color,
   borders,

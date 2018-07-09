@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   fontSize,
   fontWeight,
   textAlign,
@@ -12,6 +13,7 @@ import {
 const Td = glamorous.td(
   space,
   width,
+  maxWidth,
   fontSize,
   fontWeight,
   textAlign,

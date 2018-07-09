@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   fontSize,
   color,
   borders,
@@ -13,6 +14,7 @@ import {
 const Nav = glamorous.nav(
   space,
   width,
+  maxWidth,
   fontSize,
   color,
   borders,

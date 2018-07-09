@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   alignItems,
   justifyContent,
@@ -16,6 +17,7 @@ import {
 const Ul = glamorous.ul(
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   color,

@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   fontWeight,
@@ -13,6 +14,7 @@ import {
 const Label = glamorous.label(
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   fontWeight,

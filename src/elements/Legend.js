@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   fontSize,
   color,
   borders,
@@ -11,6 +12,7 @@ import {
 const Legend = glamorous.legend(
   space,
   width,
+  maxWidth,
   fontSize,
   color,
   borders,
