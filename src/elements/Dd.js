@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   fontWeight,
@@ -15,6 +16,7 @@ import {
 const Dd = glamorous.dd(
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   fontWeight,

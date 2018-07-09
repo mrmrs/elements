@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   color,
@@ -14,6 +15,7 @@ import {
 const Fieldset = glamorous.fieldset(
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   color,

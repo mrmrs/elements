@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   textAlign,
@@ -16,6 +17,7 @@ import {
 const Aside = glamorous.aside(
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   textAlign,

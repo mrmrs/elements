@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   fontWeight,
@@ -16,6 +17,7 @@ import {
 const Button = glamorous.button(
   space,
   width,
+  maxWidth,
   display,
   fontSize,
   fontWeight,

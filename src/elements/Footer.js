@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,,
   display,
   flex,
   alignItems,
@@ -18,6 +19,7 @@ import {
 const Footer = glamorous.footer(
   space,
   width,
+  maxWidth,
   display,
   flex,
   alignItems,

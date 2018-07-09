@@ -2,6 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
   display,
   alignItems,
   justifyContent,
@@ -18,6 +19,7 @@ import {
 const A = glamorous.a(
   space,
   width,
+  maxWidth,
   fontSize,
   fontWeight,
   textAlign,
