@@ -17,6 +17,7 @@ const Dl = glamorous.dl(
   space,
   width,
   maxWidth,
+  display,
   fontSize,
   textAlign,
   color,

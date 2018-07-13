@@ -7,6 +7,7 @@ import {
   fontSize,
   fontWeight,
   lineHeight,
+  textAlign,
   color,
   borders,
   borderColor,
@@ -22,6 +23,7 @@ const Button = glamorous.button(
   fontSize,
   fontWeight,
   lineHeight,
+  textAlign,
   color,
   borders,
   borderColor,
@@ -40,6 +42,7 @@ Button.defaultProps = {
   fontSize: '100%',
   lineHeight: 1.25,
   m: 0,
+  textAlign: 'center'
 }
 
 export default Button

@@ -1,7 +1,15 @@
 import glamorous from 'glamorous'
-import {space, width, display, fontSize, color} from 'styled-system'
+import {
+  space,
+  width,
+  display,
+  fontSize,
+  lineHeight,
+  textAlign,
+  color,
+} from 'styled-system'
 
-const Cite = glamorous.cite(space, width, display, fontSize, color, {})
+const Cite = glamorous.cite(space, width, display, fontSize, lineHeight, textAlign, color, {})
 
 Cite.defaultProps = {}
 

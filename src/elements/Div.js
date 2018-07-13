@@ -25,9 +25,10 @@ const Div = glamorous.div(
   alignItems,
   justifyContent,
   fontSize,
-  color,
   textAlign,
+  color,
   borders,
+  borderColor,
   borderRadius,
   {
     boxSizing: 'border-box',
@@ -35,7 +36,7 @@ const Div = glamorous.div(
 )
 
 Div.defaultProps = {
-  w: 1,
+  w: 1
 }
 
 export default Div
