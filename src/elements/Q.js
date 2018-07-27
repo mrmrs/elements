@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, color} from 'styled-system'
+import {space, display, width, fontSize, color} from 'styled-system'
 
-const Q = glamorous.q(space, width, fontSize, color, {})
+const Q = glamorous.q(space, display, width, fontSize, color, {})
 
 Q.defaultProps = {}
 
