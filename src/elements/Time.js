@@ -5,8 +5,11 @@ import {
   display,
   fontSize,
   fontWeight,
+  lineHeight,
   color,
   borders,
+  borderColor,
+  borderWidth,
 } from 'styled-system'
 
 const Time = glamorous.time(
@@ -15,8 +18,11 @@ const Time = glamorous.time(
   display,
   fontSize,
   fontWeight,
+  lineHeight,
   color,
   borders,
+  borderColor,
+  borderWidth,
   {},
 )
 
