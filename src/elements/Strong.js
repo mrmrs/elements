@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import {space, fontSize, fontWeight, color} from 'styled-system'
+import {space, display, fontSize, fontWeight, color} from 'styled-system'
 
-const Strong = glamorous.strong(space, fontSize, fontWeight, color, {})
+const Strong = glamorous.strong(space, display, fontSize, fontWeight, color, {})
 
 Strong.defaultProps = {
   fontWeight: 'bolder',
