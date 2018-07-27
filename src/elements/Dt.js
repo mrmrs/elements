@@ -7,7 +7,12 @@ import {
   fontSize,
   fontWeight,
   lineHeight,
+  textAlign,
   color,
+  borders,
+  borderColor,
+  borderWidth,
+  borderRadius,
 } from 'styled-system'
 
 const Dt = glamorous.dt(
@@ -18,7 +23,12 @@ const Dt = glamorous.dt(
   fontSize,
   fontWeight,
   lineHeight,
+  textAlign,
   color,
+  borders,
+  borderColor,
+  borderWidth,
+  borderRadius,
   {},
 )
 
