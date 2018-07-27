@@ -36,7 +36,7 @@ const Div = glamorous.div(
 )
 
 Div.defaultProps = {
-  w: 1
+  w: 1,
 }
 
 export default Div
