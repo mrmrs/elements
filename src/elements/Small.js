@@ -1,7 +1,24 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, color} from 'styled-system'
+import {
+  space,
+  display,
+  width,
+  maxWidth,
+  fontSize,
+  fontWeight,
+  color,
+} from 'styled-system'
 
-const Small = glamorous.small(space, width, fontSize, color, {})
+const Small = glamorous.small(
+  space,
+  display,
+  width,
+  maxWidth,
+  fontSize,
+  fontWeight,
+  color,
+  {},
+)
 
 Small.defaultProps = {}
 
