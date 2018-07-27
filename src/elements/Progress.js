@@ -17,9 +17,7 @@ const Progress = glamorous.progress(
   borders,
   borderColor,
   borderWidth,
-  {
-
-  },
+  {},
 )
 
 Progress.defaultProps = {}
