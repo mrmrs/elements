@@ -29,6 +29,7 @@ const Div = glamorous.div(
   color,
   borders,
   borderColor,
+  borderWidth,
   borderRadius,
   {
     boxSizing: 'border-box',
