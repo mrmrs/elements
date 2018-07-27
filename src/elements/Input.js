@@ -4,11 +4,13 @@ import {
   width,
   display,
   fontSize,
+  fontWeight,
+  lineHeight,
+  color,
   borders,
   borderColor,
   borderWidth,
   borderRadius,
-  color,
 } from 'styled-system'
 
 const Input = glamorous.input(
@@ -16,6 +18,8 @@ const Input = glamorous.input(
   width,
   display,
   fontSize,
+  fontWeight,
+  lineHeight,
   color,
   borders,
   borderColor,
