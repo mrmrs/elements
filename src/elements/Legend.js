@@ -1,23 +1,28 @@
 import glamorous from 'glamorous'
 import {
   space,
+  display,
   width,
   maxWidth,
   fontSize,
   color,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
 } from 'styled-system'
 
 const Legend = glamorous.legend(
   space,
+  display,
   width,
   maxWidth,
   fontSize,
   color,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
-  display,
   {
     boxSizing: 'border-box',
     maxWidth: '100%',
