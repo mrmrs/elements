@@ -9,7 +9,16 @@ import {
   color,
 } from 'styled-system'
 
-const Cite = glamorous.cite(space, width, display, fontSize, lineHeight, textAlign, color, {})
+const Cite = glamorous.cite(
+  space,
+  width,
+  display,
+  fontSize,
+  lineHeight,
+  textAlign,
+  color,
+  {},
+)
 
 Cite.defaultProps = {}
 
