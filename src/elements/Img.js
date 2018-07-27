@@ -5,6 +5,8 @@ import {
   maxWidth,
   color,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -14,6 +16,8 @@ const Img = glamorous.img(
   maxWidth,
   color,
   borders,
+  borderColor, 
+  borderWidth,
   borderRadius,
   {
     display: 'block',
@@ -24,6 +28,7 @@ const Img = glamorous.img(
 
 Img.defaultProps = {
   w: 1,
+  src: https://picsum.photos/200/300
 }
 
 export default Img
