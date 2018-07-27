@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
 import {color} from 'styled-system'
 
-const Path = glamorous.Path(color, {
+const Path = glamorous.path(color, {
   boxSizing: 'border-box',
 })
 
