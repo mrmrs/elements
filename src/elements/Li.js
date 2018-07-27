@@ -7,6 +7,7 @@ import {
   borders,
   borderColor,
   borderWidth,
+  borderRadius,
 } from 'styled-system'
 
 const Li = glamorous.li(
@@ -16,7 +17,8 @@ const Li = glamorous.li(
   color,
   borders,
   borderColor,
-  borderwidth,
+  borderWidth,
+  borderRadius,
   {
     boxSizing: 'border-box',
   },
