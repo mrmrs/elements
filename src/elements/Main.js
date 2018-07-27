@@ -7,10 +7,12 @@ import {
   fontSize,
   color,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
 } from 'styled-system'
 
-const Main = glamorous.div(
+const Main = glamorous.main(
   space,
   width,
   maxWidth,
@@ -18,6 +20,8 @@ const Main = glamorous.div(
   fontSize,
   color,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
   {
     boxSizing: 'border-box',
