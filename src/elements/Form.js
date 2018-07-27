@@ -2,6 +2,8 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
+  maxWidth,
+  display,
   fontSize,
   color,
   borders,
@@ -13,6 +15,8 @@ import {
 const Form = glamorous.form(
   space,
   width,
+  maxWidth,
+  display,
   fontSize,
   color,
   borders,
