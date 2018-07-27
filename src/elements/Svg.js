@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import {color} from 'styled-system'
+import {color, width, maxWidth, height, display} from 'styled-system'
 
-const Svg = glamorous.Svg(color, {
+const Svg = glamorous.svg(color, width, maxWidth, height, display, {
   boxSizing: 'border-box',
 })
 
