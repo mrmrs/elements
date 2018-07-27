@@ -3,6 +3,7 @@
 Prototyping kit.
 
 Easily style html elements with values from your design system.
+Harness the power of react and css-in-js while writing semantic Html.
 
 Made with:
 
@@ -33,7 +34,7 @@ const H1 = glamorous.h1(space,  width, fontSize, color, {
 })
 
 H1.defaultProps = {
-  fontSize: 3,4,5
+  fontSize: [3,4,5]
 }
 
 export default H1
