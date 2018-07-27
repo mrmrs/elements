@@ -18,6 +18,8 @@ const Code = glamorous.code(
   fontSize,
   color,
   borders,
+  borderColor,
+  borderWidth,
   borderRadius,
   {
     boxSizing: 'border-box',
