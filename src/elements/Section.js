@@ -4,17 +4,21 @@ import {
   width,
   maxWidth,
   display,
+  alignItems,
+  justifyContent,
   fontSize,
   color,
   borders,
   borderRadius,
 } from 'styled-system'
 
-const Section = glamorous.div(
+const Section = glamorous.section(
   space,
   width,
   maxWidth,
   display,
+  alignItems,
+  justifyContent,
   fontSize,
   color,
   borders,
