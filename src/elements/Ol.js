@@ -1,6 +1,7 @@
 import glamorous from 'glamorous'
 import {
   space,
+  display,
   width,
   maxWidth,
   fontSize,
@@ -13,6 +14,8 @@ import {
 
 const Ol = glamorous.ol(
   space,
+  display,
+  width,
   maxWidth,
   fontSize,
   color,
