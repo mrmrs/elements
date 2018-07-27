@@ -5,9 +5,12 @@ import {
   maxWidth,
   fontSize,
   fontWeight,
+  lineHeight,
   textAlign,
   color,
   borders,
+  borderColor,
+  borderWidth,
 } from 'styled-system'
 
 const Td = glamorous.td(
@@ -16,9 +19,12 @@ const Td = glamorous.td(
   maxWidth,
   fontSize,
   fontWeight,
+  lineHeight,
   textAlign,
   color,
   borders,
+  borderColor,
+  borderWidth,
   {},
 )
 
