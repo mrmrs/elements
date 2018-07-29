@@ -32,6 +32,8 @@ const H1 = glamorous.h1(
   },
 )
 
-H1.defaultProps = {}
+H1.defaultProps = {
+  lineHeight: 1.25
+}
 
 export default H1
