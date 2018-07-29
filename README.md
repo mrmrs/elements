@@ -9,9 +9,9 @@ Harness the power of react and css-in-js while writing semantic Html.
 
 Made with:
 
-- Create-react-app 
-- Styled-System 
-- Glamorous
+- [https://github.com/facebook/create-react-app](Create-react-app)
+- [https://jxnblk.com/styled-system](Styled-System)
+- [https://github.com/paypal/glamorous](Glamorous)
 
 ## Getting started
 
