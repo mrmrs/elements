@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
 import {space, display, width} from 'styled-system'
 
-const Select = glamorous.Select(space, display, width, {})
+const Select = glamorous.select(space, display, width, {})
 
 Select.defaultProps = {}
 

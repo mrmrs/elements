@@ -1,14 +1,16 @@
 import glamorous from 'glamorous'
-import {space, width, maxWidth, fontSize, color} from 'styled-system'
+import {space, width, maxWidth, display, fontSize, fontWeight, lineHeight, textAlign, color} from 'styled-system'
 
 const P = glamorous.p(
   space,
   width,
   maxWidth,
+  display,
+  color,
   fontSize,
   fontWeight,
   lineHeight,
-  color,
+  textAlign, 
   {
     boxSizing: 'border-box',
   },

@@ -28,7 +28,7 @@ const Img = glamorous.img(
 
 Img.defaultProps = {
   w: 1,
-  src: https://picsum.photos/200/300
+  src: 'https://picsum.photos/200/300'
 }
 
 export default Img
