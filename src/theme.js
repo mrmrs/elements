@@ -17,14 +17,14 @@ const theme = {
   ],
   fontFamily: {
     serif: 'serif',
-    sansSerif: 'sans-serif',
+    sansSerif: '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif',
     mono: 'monaco',
   },
   lineHeights: [1, 1,25, 1.5],
   letterSpacing: [ '0.05em', '0.075em', '0.1em' ],
   colors: {
-    blue: 'hsl(212, 75%, 50%)',
-    red: 'hsl(0, 75%, 50%)',
+    blue: 'hsl(212, 75%, 60%)',
+    red: 'hsl(0, 75%, 60%)',
   }
 }
 
