@@ -2,7 +2,7 @@ import glamorous from 'glamorous'
 import {
   space,
   width,
-  maxWidth,,
+  maxWidth,
   display,
   flex,
   alignItems,
