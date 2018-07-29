@@ -6,6 +6,7 @@ import H1 from '../elements/H1'
 import P from '../elements/P'
 import Footer from '../elements/Footer'
 import NavLink from '../components/NavLink'
+import SlabStat from '../components/SlabStat'
 
 export default class Home extends React.Component {
   componentDidMount() {
