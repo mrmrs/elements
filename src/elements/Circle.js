@@ -1,12 +1,12 @@
 import glamorous from 'glamorous'
 import {color} from 'styled-system'
 
-const Path = glamorous.path(color, {
+const Circle = glamorous.circle(color, {
   boxSizing: 'border-box',
 })
 
-Path.defaultProps = {
+Circle.defaultProps = {
   fill: 'currentColor',
 }
 
-export default Path
+export default Circle
