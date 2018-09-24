@@ -6,11 +6,11 @@
     "glamor": "^2.20.40",
     "glamorous": "^4.13.1",
     "kit": "^1.0.26",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "styled-system": "^3.0.2"
+    "react-scripts": "1.1.5",
+    "styled-system": "^3.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
