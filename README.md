@@ -2,10 +2,10 @@
 
 WIP
 
-Prototyping kit for people who know html and css but want to play 
-around with React, Styled-System, and css-in-js.
+Prototyping kit for people who know html and css and want to play 
+around with react, css-in-js, and styled-system.
 
-Easily style html elements with values from your design system.
+Easily style html elements with values from your design system across breakpoints.
 Harness the power of react and css-in-js while writing semantic Html.
 
 Made with:
