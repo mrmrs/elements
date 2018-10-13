@@ -10,7 +10,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const Span = glamorous.span(
@@ -24,7 +23,6 @@ const Span = glamorous.span(
   color,
   borders,
   borderColor,
-  borderWidth,
   {},
 )
 

@@ -11,7 +11,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -27,7 +26,6 @@ const Button = glamorous.button(
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
   {
     boxSizing: 'border-box',

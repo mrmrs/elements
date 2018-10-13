@@ -6,7 +6,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const Progress = glamorous.progress(
@@ -16,7 +15,6 @@ const Progress = glamorous.progress(
   color,
   borders,
   borderColor,
-  borderWidth,
   {},
 )
 

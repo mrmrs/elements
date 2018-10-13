@@ -11,7 +11,6 @@ import {
   textAlign,
   color,
   borders,
-  borderWidth,
   borderColor,
   borderRadius,
 } from 'styled-system'
@@ -28,7 +27,6 @@ const Nav = glamorous.nav(
   textAlign,
   color,
   borders,
-  borderWidth,
   borderColor,
   borderRadius,
   {

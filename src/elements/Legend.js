@@ -8,7 +8,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -21,7 +20,6 @@ const Legend = glamorous.legend(
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
   {
     boxSizing: 'border-box',

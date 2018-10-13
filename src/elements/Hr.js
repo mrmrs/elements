@@ -5,7 +5,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const Hr = glamorous.hr(
@@ -14,7 +13,6 @@ const Hr = glamorous.hr(
   color,
   borders,
   borderColor,
-  borderWidth,
   {
     boxSizing: 'border-box',
     height: 0,

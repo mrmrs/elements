@@ -9,7 +9,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const Time = glamorous.time(
@@ -22,7 +21,6 @@ const Time = glamorous.time(
   color,
   borders,
   borderColor,
-  borderWidth,
   {},
 )
 

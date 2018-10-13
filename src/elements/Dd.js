@@ -11,7 +11,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const Dd = glamorous.dd(
@@ -26,7 +25,6 @@ const Dd = glamorous.dd(
   color,
   borders,
   borderColor,
-  borderWidth,
   {},
 )
 

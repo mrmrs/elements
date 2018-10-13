@@ -12,7 +12,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -29,7 +28,6 @@ const NavLink = glamorous.a(
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
   {
     textDecoration: 'none',

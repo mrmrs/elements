@@ -10,7 +10,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const Td = glamorous.td(
@@ -24,7 +23,6 @@ const Td = glamorous.td(
   color,
   borders,
   borderColor,
-  borderWidth,
   {},
 )
 

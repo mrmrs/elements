@@ -7,7 +7,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const Sup = glamorous.sup(
@@ -18,7 +17,6 @@ const Sup = glamorous.sup(
   color,
   borders,
   borderColor,
-  borderWidth,
   {},
 )
 

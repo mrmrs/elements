@@ -10,7 +10,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -25,7 +24,6 @@ const Article = glamorous.article(
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
   {
     boxSizing: 'border-box',

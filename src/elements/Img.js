@@ -6,7 +6,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -17,7 +16,6 @@ const Img = glamorous.img(
   color,
   borders,
   borderColor, 
-  borderWidth,
   borderRadius,
   {
     display: 'block',

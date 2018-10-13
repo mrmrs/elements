@@ -9,7 +9,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
 } from 'styled-system'
 
@@ -23,7 +22,6 @@ const Dl = glamorous.dl(
   color,
   borders,
   borderColor,
-  borderWidth,
   borderRadius,
   {},
 )

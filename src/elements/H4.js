@@ -11,7 +11,6 @@ import {
   color,
   borders,
   borderColor,
-  borderWidth,
 } from 'styled-system'
 
 const H4 = glamorous.h4(
@@ -26,7 +25,6 @@ const H4 = glamorous.h4(
   color,
   borders,
   borderColor,
-  borderWidth,
   {
     boxSizing: 'border-box',
   },
