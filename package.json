@@ -1,6 +1,6 @@
 {
   "name": "glamorous-elements",
-  "version": "0.16.6",
+  "version": "0.16.7",
   "private": true,
   "dependencies": {
     "glamor": "^2.20.40",
