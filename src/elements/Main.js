@@ -27,7 +27,7 @@ const Main = glamorous.main(
 )
 
 Main.defaultProps = {
-  w: 1,
+  width: 1,
 }
 
 export default Main

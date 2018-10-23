@@ -4,7 +4,7 @@ import {space, width, fontSize, color} from 'styled-system'
 const Tbody = glamorous.tbody(space, width, fontSize, color, {})
 
 Tbody.defaultProps = {
-  w: 1,
+  width: 1,
 }
 
 export default Tbody

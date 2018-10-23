@@ -3,6 +3,7 @@ import {
   space,
   width,
   maxWidth,
+  display,
   color,
   borders,
   borderColor,
@@ -13,19 +14,20 @@ const Img = glamorous.img(
   space,
   width,
   maxWidth,
+  display,
   color,
   borders,
   borderColor, 
   borderRadius,
   {
-    display: 'block',
     maxWidth: '100%',
     borderStyle: 'none',
   },
 )
 
 Img.defaultProps = {
-  w: 1,
+  width: 1,
+  display: 'block',
   src: 'https://picsum.photos/200/300'
 }
 

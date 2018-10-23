@@ -29,7 +29,7 @@ const Section = glamorous.section(
 )
 
 Section.defaultProps = {
-  w: 1,
+  width: 1,
 }
 
 export default Section

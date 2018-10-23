@@ -12,7 +12,7 @@ const Table = glamorous.table(space, width, maxWidth, fontSize, color, layout, {
 })
 
 Table.defaultProps = {
-  w: 1,
+  width: 1,
   layout: 'initial',
 }
 
