@@ -1,10 +1,18 @@
 import glamorous from 'glamorous'
-import {space, width, fontSize, color} from 'styled-system'
+import {space, width, display, fontSize, textAlign, color} from 'styled-system'
 
-const Tfooter = glamorous.tbody(space, width, fontSize, color, {})
+const Tfoot = glamorous.tfoot(
+  space,
+  width,
+  display,
+  fontSize,
+  textAlign,
+  color,
+  {},
+)
 
-Tfooter.defaultProps = {
+Tfoot.defaultProps = {
   width: 1,
 }
 
-export default Tfooter
+export default Tfoot
